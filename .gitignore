@@ -4,4 +4,16 @@
 *.tfvars
 .crash.log
 .terraform.lock.hcl
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform variables (optional if you ever add secrets)
+*.tfvars
+
+# OS / Editor
+.DS_Store
+.vscode/
 

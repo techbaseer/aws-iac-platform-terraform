@@ -17,3 +17,6 @@ variable "public_subnet_ids" {
 variable "alb_security_group_id" {
   type = string
 }
+variable "ec2_instance_id" {
+  type = string
+}
